@@ -1,0 +1,44 @@
+.cont {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #404040;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #efefef;
+    padding: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-image: linear-gradient(black, white);
+    height: 1000px;
+}
+
+body {
+    background-color: #00000080;
+    margin: 0px;
+}
+
+a {
+    color: aquamarine;
+}
+
+.ordinary {color: #e0e0e0;}
+
+.extraordinary {color: #21CF0B;}
+
+.rare {color: #4E9FEE;}
+
+.epic {color: #B083E2;}
+
+.legendary {color: #EBCC3D;}
