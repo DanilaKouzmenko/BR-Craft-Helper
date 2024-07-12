@@ -102,4 +102,4 @@ const items = {
 const urlParams = new URLSearchParams(window.location.search);
 const itemParam = urlParams.get('item');
 
-items[itemParam].show();
+items[itemParam].show(); 
