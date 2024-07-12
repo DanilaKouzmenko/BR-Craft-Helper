@@ -102,4 +102,8 @@ const items = {
 const urlParams = new URLSearchParams(window.location.search);
 const itemParam = urlParams.get('item');
 
+if (itemParam == "AwShitHereWeGoAgain") {
+    document.addEventListener( 'click', () => {document.getElementById('easter-egg').play();} );
+}
+
 items[itemParam].show(); 
